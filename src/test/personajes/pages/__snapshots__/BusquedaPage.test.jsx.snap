@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <BusquedaPage /> Debe de mostrarse correctamente con valores por defecto  1`] = `
+<div>
+  <h1>
+    Busqueda de Personajes
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h4>
+        Busqueda
+      </h4>
+      <hr />
+      <form
+        role="searchForm"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="busquedaText"
+          placeholder="Buscar Personaje"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-primary mt-2"
+        >
+          Buscar
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h4>
+        Resultado
+      </h4>
+      <hr />
+      <div
+        class="alert alert-primary animate__animated animate__fadeIn"
+      >
+        Buscar un Personaje
+      </div>
+      <div
+        aria-label="alert-danger"
+        class="alert alert-danger animate__animated animate__fadeIn"
+        style="display: none;"
+      >
+        No hay Personajes Encontrados con 
+        <b />
+      </div>
+    </div>
+  </div>
+</div>
+`;
