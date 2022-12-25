@@ -6,7 +6,7 @@ export const PersonajesCard = ({
     compania,
     saga
 }) => {
-    const personajesImage = `./assets/personajes/${id}.png`;
+    const personajesImage = `docs/personajes/${id}.png`;
 
     return (
         <div className="col animate__animated animate__fadeIn">
